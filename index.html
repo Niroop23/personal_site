@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="bcg">
+        <header>
+            <h1>
+                Welcome to my website
+            </h1>
+
+            <nav id="nav-bar">
+
+                <ul>
+
+                    <li class="active navbtn"><a href="index.html">Home</a></li>
+                    <li class="navbtn"><a href="abt.html">about</a></li>
+                    <li class="navbtn"><a href="#">abc</a></li>
+                    <li class="navbtn"><a href="#">xyz</a></li>
+
+                </ul>
+
+            </nav>
+
+        </header>
+
+    </div>
+
+
+    <main>
+
+        <h2 id="form-caption">A Quick Survey</h2>
+
+        <form id="form">
+
+            <div class="form-ctrl">
+
+                <label for="name" id="label-name">Name</label>
+
+                <input type="text" id="name" name="name" placeholder="Enter your Name" required>
+
+            </div>
+
+            <div class="form-ctrl">
+
+                <label for="email" id="label-email">Email</label>
+
+                <input type="email" id="email" name="email" placeholder="ENter your email" required>
+
+            </div>
+
+            <div class="form-ctrl">
+
+                <label for="age" id="label-age">Age </label>
+
+                <input type="number" id="age" name="age" required min="13">
+
+            </div>
+
+            <div class="form-ctrl">
+
+                <label for="role" id="label-role">Which option best suites you?</label>
+
+                <select name="role" id="role">
+                    <option value="student">Student</option>
+                    <option value="intern">Intern</option>
+                    <option value="professional">Professional</option>
+                    <option value="freelancer">Freelancer</option>
+                    <option value="others">Others</option>
+
+                </select>
+            </div>
+
+            <div class="form-ctrl">
+
+                <label>Select the frameworks and language you know</label>
+
+                <label for="inp-1">
+                    <input type="checkbox" name="inp">C
+                    </input>
+                </label>
+
+                <label for="inp-2">
+                    <input type="checkbox" name="inp">C++
+                    </input>
+                </label>
+
+                <label for="inp-3">
+                    <input type="checkbox" name="inp">C#
+                    </input>
+                </label>
+
+                <label for="inp-4">
+                    <input type="checkbox" name="inp">Java
+                    </input>
+                </label>
+
+                <label for="inp-5">
+                    <input type="checkbox" name="inp">Python
+                    </input>
+                </label>
+
+                <label for="inp-6">
+                    <input type="checkbox" name="inp">JavaScript
+                    </input>
+                </label>
+
+                <label for="inp-7">
+                    <input type="checkbox" name="inp">SQLite
+                    </input>
+                </label>
+
+                <label for="inp-8">
+                    <input type="checkbox" name="inp">Angular
+                    </input>
+                </label>
+
+                <label for="inp-9">
+                    <input type="checkbox" name="inp">Django
+                    </input>
+                </label>
+
+                <label for="inp-10">
+                    <input type="checkbox" name="inp">mongoDB
+                    </input>
+
+                </label>
+            </div>
+
+            <div class="form-ctrl">
+
+                <label for="comment">
+                    Any comments or suggestions
+                </label>
+
+                <!-- multi-line text input control -->
+                <textarea name="comment" id="comment" placeholder="Enter your comment here">
+                </textarea>
+            </div>
+
+            <!-- Multi-line Text Input Control -->
+            <button type="submit" value="submit">
+                Submit
+            </button>
+
+
+        </form>
+
+    </main>
+
+</body>
+
+</html>

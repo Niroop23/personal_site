@@ -1,0 +1,133 @@
+
+body{
+    margin: 0;
+    background-color: rgb(224, 161, 211);
+    text-align: center;
+    font-family: Verdana;
+    
+}
+
+
+.bcg #nav-bar{
+    background-color: rgb(199, 153, 243);
+    min-height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bcg #nav-bar ul{
+    list-style-type: none;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    gap: 5em;
+    
+}
+
+.bcg #nav-bar ul li a{
+    text-decoration: none;
+    display: block;
+    color: rgb(234, 232, 238);
+    padding: 14px 16px;
+    transition: 0.3s ease-in-out;
+}
+
+.bcg #nav-bar ul li:hover{
+    font-size: 1.05em;
+    background-color: rgb(191, 137, 241);
+    border-radius: 8px;
+    text-shadow: 1px 1px 3px black;
+    box-shadow: 1px 1px 3px rgb(100, 100, 96);
+}
+
+.bcg #nav-bar ul .active{
+
+    background-color: #5c6851;
+}
+
+.bcg #nav-bar ul li {
+    background-color: #7743ca;
+    border: none;
+    border-radius: 3px;
+    
+}
+
+
+#form,#info {
+    border: 2px solid;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    background-color: #f5c8c8;
+    transition: 1s ease-in-out;
+    
+}
+
+.form-ctrl{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.form-ctrl label {
+    font: 1em sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+    margin-bottom: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.form-ctrl input,.form-ctrl select,.form-ctrl textarea {
+    border: 1px solid #777;
+    border-radius: 3px;
+    font-family: inherit;
+    padding: 10px;
+    width:50vh;
+    display: block;
+}
+.form-ctrl textarea{
+    max-width: 60vh;
+}
+
+.form-ctrl input[type="checkbox"]{
+    display: inline-block;
+    width: auto;
+}
+
+
+button{
+    background-color: #b1e485;
+    border: 1.2px solid rgb(148, 144, 144);
+    border-radius: 3px;
+    font-family: inherit;
+    font-size: 15px;
+    width: 100%;
+    padding: 5px 9px;
+    margin:50px 0;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#info #dp {
+    width: 150px;
+    border-radius: 5px;
+    padding: 0;
+    
+}
+
+
+#info {
+    font-family: Verdana, Impact, Tahoma, sans-serif;
+    display:flex;
+    justify-content: space-between;
+    padding: 15px;
+
+}
+
+#info #my-info{
+    padding: 10px;
+    font-size: 18px;
+    margin: auto 15px;
+    
+}
